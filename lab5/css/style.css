@@ -1,0 +1,73 @@
+body{margin: 0px;}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+p,a,li{
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+header{
+    height: 125px;
+    display: flex;
+    align-items: center;
+    background-color: #125784;
+}
+
+header >div{
+    width: auto;
+    height: 115px;
+    float: left;
+    position: relative;
+    top: 5%;
+}
+
+.logo-container{
+    height: 110px;
+    flex-grow: 1;
+}
+.logo-container a img{
+    height: 100%;
+    width: auto;
+}
+
+header nav menu{
+    list-style: none;
+    display: flex;
+}
+header nav menu li{
+    padding: 0px 15px;
+}
+header nav menu li a{
+    color: lemonchiffon;
+}
+main > section > div{
+    border: solid 2px #f57f17;
+    color: #f8f8f8;
+    padding: 10px 35px;
+    font-size: 20px;
+}
+
+main > section >form{
+    width: 100%;
+    background-color: #5e35b1;
+}
+main > section > div > form >input[type="text"],
+main > section > div > form >input[type="email"],
+main > section > div > form >input[type="password"]
+{
+
+    border:solid 2px #0e0e0e;
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px 5px;
+}
+
+main > section > div > form >input[type="submit"]{
+    border: solid 2px #8338ec;
+    background-color: #8338ec;
+    color: #f8f8f8;
+    padding: 10px 35px;
+    font-size: 20px;}
